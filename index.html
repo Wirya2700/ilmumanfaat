@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>Selamat datang di {{site.title}}</h1>
+        <blockquote class="blockquote">
+            <p class="mb-0">Jangan nunggu sampai S1, S2, S3 dan seterusnya untuk berbagi Ilmu</p>
+            <footer class="blockquote-footer">{{site.my_name}}</footer>
+          </blockquote>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Selengkapnya</a></p>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">Apa itu {{site.title}}?</h2>
+            <blockquote>
+              <p>
+                {{site.title}} sebagai media untuk berbagi Ilmu apa saja dimana Ilmu tersebut bisa bermanfaat bagi banyak Orang.
+                Anda dapat berkontribusi untuk berbagi Ilmu lewat Website ini, Menulis artikel dan dipublikasikan di Website ini.
+			  </p>
+			  <p>
+				Untuk bergabung anda bisa kunjungi halaman Github <a href="{{site.git_address}}" target="_blank">{{site.title}}</a>, anda bisa download Source Code website ini 
+				dan bisa di jalankan di local komputer anda, dan upload ke Github <a href="{{site.git_address}}" target="_blank">{{site.title}}</a> dan Postingan Anda dapat di lihat pada Website ini.
+              </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+			<h2 class="header-light regular-pad">Tujuan {{site.title}}</h2>
+            <blockquote>
+              <p>
+			  Menjadikan diri ini bisa bermanfaat untuk Orang lain, walaupun Ilmu sedikit tapi semoga bisa Manfaat.
+			  </p>
+            </blockquote>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-handshake-o" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Terimakasih</h3>
+            <p>
+			<strong>Orangtua</strong>, Guru, Sahabat, Teman yang telah memberikan Ilmu kepada Saya.
+            </p>
+			<p>
+			Tidak lupa untuk Github yang memberikan fasilitas untuk Website ini.
+			</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Mau Ikutan nge-Blog ?</h3>
+            <p>
+			Gampang banget !!!. Anda cukup kunjungi dan Clone <a href="{{site.git_address}}" target="_blank">{{site.title}}</a>, jalankan di local komputer, upload kembali ke alamat tersebut Anda sudah dapat melihat Postingan disini
+			</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-book" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Ilmu apa saja disini</h3>
+            <p>
+			Semua Ilmu yang bermanfaat seperti pelajaran sekolah, pengetahuan umum, tutorial dan banyak lagi 
+			</p>
+        </div>
+    </div>
+</div>
