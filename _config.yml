@@ -7,7 +7,7 @@ description: >
   Tempat bebagi ilmu, tutorial, pelajaran sekolah
 
 baseurl: "/ilmumanfaat" # the subpath of your site, e.g. /blog/
-url: "https://wirya2700.github.io/ilmumanfaat" # the base hostname & protocol for your site
+url: https://wirya2700.github.io/ilmumanfaat # the base hostname & protocol for your site
 git_address: https://github.com/wirya2700/ilmumanfaat
 
 # theme options from https://bootswatch.com/
